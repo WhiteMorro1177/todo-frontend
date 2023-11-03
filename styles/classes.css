@@ -1,0 +1,16 @@
+.todo-wrapper, .done-wrapper {
+    width: 25%;
+    background-color: blueviolet;
+}
+
+.doing-wrapper {
+    width: 50%;
+    color: aqua;
+}
+
+.main-page-wrapper:after {
+    float: left;
+    width: 33.33%;
+    display: table;
+    clear: both;
+}
